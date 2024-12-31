@@ -100,8 +100,9 @@ This is the URL of a PowerShell Invoke-WebRequest proxy:
 - `USERNAME`: The optional username for proxy authentication.
 - `PASSWORD`: The optional password for proxy authentication.
 
-💡 **Important:** The <PROTOCOL>:// part is required by Invoke-WebRequest. If you omit it, the request fails with:
-Invoke-WebRequest : This operation is not supported for a relative URI.
+> 💡 **Important:**\
+> **The <PROTOCOL>:// part is required by Invoke-WebRequest. If you omit it, the request fails with:**\
+> **Invoke-WebRequest : This operation is not supported for a relative URI.**
 
 In PowerShell 5.1, Invoke-WebRequest only supports HTTP, while in PowerShell 7.x it also supports HTTPS and SOCKS.
 
@@ -119,10 +120,7 @@ Compose that into:
 http://190.6.23.219:999
 ```
 
-⚠️ **Warning**
-
-Free proxies are okay for learning, but cannot be relied upon in real-world scenarios:
-
+>⚠️ **Warning:**\
 > **Free proxies are unreliable, error-prone, slow, data-greedy, and short-lived. Do not use them!**
 
 Solution? Premium proxies from Bright Data, the best provider in the market. Subscribe and try our reliable proxies for free.
