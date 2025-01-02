@@ -211,7 +211,7 @@ So:
 Invoke-WebRequest -Proxy "http://190.6.23.219:999" "https://httpbin.org/ip"
 
 Invoke-WebRequest -Uri "http://httpbin.org/ip" `
-  -Proxy "http://brd.superproxy.io:22225" `
+  -Proxy "http://brd.superproxy.io:33335" `
   -ProxyCredential (
     New-Object System.Management.Automation.PSCredential(
       "brd-customer-CUSTOMER_ID-zone-ZONE’S_NAME",
